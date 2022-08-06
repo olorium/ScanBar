@@ -12,6 +12,8 @@
 		FAB3E93C289EFDDF0062B3EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E93B289EFDDF0062B3EE /* Assets.xcassets */; };
 		FAB3E93F289EFDDF0062B3EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E93E289EFDDF0062B3EE /* Preview Assets.xcassets */; };
 		FAB3E946289EFE4B0062B3EE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E945289EFE4B0062B3EE /* README.md */; };
+		FAB3E94B289F03060062B3EE /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E94A289F03060062B3EE /* ScannerVC.swift */; };
+		FAB3E94D289F098B0062B3EE /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E94C289F098B0062B3EE /* info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		FAB3E93B289EFDDF0062B3EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB3E93E289EFDDF0062B3EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAB3E945289EFE4B0062B3EE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FAB3E94A289F03060062B3EE /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		FAB3E94C289F098B0062B3EE /* info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				FAB3E93B289EFDDF0062B3EE /* Assets.xcassets */,
 				FAB3E93D289EFDDF0062B3EE /* Preview Content */,
 				FAB3E945289EFE4B0062B3EE /* README.md */,
+				FAB3E94A289F03060062B3EE /* ScannerVC.swift */,
+				FAB3E94C289F098B0062B3EE /* info.plist */,
 			);
 			path = ScanBar;
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB3E94D289F098B0062B3EE /* info.plist in Resources */,
 				FAB3E946289EFE4B0062B3EE /* README.md in Resources */,
 				FAB3E93F289EFDDF0062B3EE /* Preview Assets.xcassets in Resources */,
 				FAB3E93C289EFDDF0062B3EE /* Assets.xcassets in Resources */,
@@ -141,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB3E94B289F03060062B3EE /* ScannerVC.swift in Sources */,
 				FAB3E93A289EFDDD0062B3EE /* BarcodeScannerView.swift in Sources */,
 				FAB3E938289EFDDD0062B3EE /* ScanBarApp.swift in Sources */,
 			);
