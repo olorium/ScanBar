@@ -13,7 +13,7 @@
 		FAB3E93F289EFDDF0062B3EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E93E289EFDDF0062B3EE /* Preview Assets.xcassets */; };
 		FAB3E946289EFE4B0062B3EE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E945289EFE4B0062B3EE /* README.md */; };
 		FAB3E94B289F03060062B3EE /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E94A289F03060062B3EE /* ScannerVC.swift */; };
-		FAB3E94F289F0BF50062B3EE /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E94E289F0BF50062B3EE /* info.plist */; };
+		FAB3E95128A9815C0062B3EE /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E95028A9815C0062B3EE /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		FAB3E93E289EFDDF0062B3EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAB3E945289EFE4B0062B3EE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FAB3E94A289F03060062B3EE /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
-		FAB3E94E289F0BF50062B3EE /* info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		FAB3E95028A9815C0062B3EE /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 				FAB3E93D289EFDDF0062B3EE /* Preview Content */,
 				FAB3E945289EFE4B0062B3EE /* README.md */,
 				FAB3E94A289F03060062B3EE /* ScannerVC.swift */,
-				FAB3E94E289F0BF50062B3EE /* info.plist */,
+				FAB3E95028A9815C0062B3EE /* ScannerView.swift */,
 			);
 			path = ScanBar;
 			sourceTree = "<group>";
@@ -134,7 +134,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB3E94F289F0BF50062B3EE /* info.plist in Resources */,
 				FAB3E946289EFE4B0062B3EE /* README.md in Resources */,
 				FAB3E93F289EFDDF0062B3EE /* Preview Assets.xcassets in Resources */,
 				FAB3E93C289EFDDF0062B3EE /* Assets.xcassets in Resources */,
@@ -149,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB3E94B289F03060062B3EE /* ScannerVC.swift in Sources */,
+				FAB3E95128A9815C0062B3EE /* ScannerView.swift in Sources */,
 				FAB3E93A289EFDDD0062B3EE /* BarcodeScannerView.swift in Sources */,
 				FAB3E938289EFDDD0062B3EE /* ScanBarApp.swift in Sources */,
 			);
@@ -282,7 +282,7 @@
 				DEVELOPMENT_TEAM = R55SB7N5G9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScanBar/Info.plist;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use the camera to scan barcodes.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,7 +314,7 @@
 				DEVELOPMENT_TEAM = R55SB7N5G9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScanBar/Info.plist;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use the camera to scan barcodes.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
